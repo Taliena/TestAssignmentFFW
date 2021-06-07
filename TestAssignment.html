@@ -1,0 +1,67 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Test Assignment</title>
+        <script src="TestAssignment.js"></script>
+        <link href="TestAssignment.css" rel="stylesheet"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="container-header">Please select one font</h1>
+            <div class="container-nav">
+                <div class="container-nav__tab active" data-id="tab-1"><p>My fonts</p></div>
+                <div class="container-nav__tab" data-id="tab-2"><p>Buy fonts</p></div>
+            </div>
+        </div>
+        <div class="content">
+            <div id="tab-1" class="content-tab active">
+               <div class="cards-wrapper">
+                   <div class="cards-wrapper__card card bigCard">
+                       <div class="card-image__wrapper card-image__big">
+                           <div class="card-image__background green">
+                                <p>M</p>
+                           </div>
+                       </div>
+                       <div>
+                        <input id="radio-1" type="radio" name="radio" value="1" checked>
+	                    <label for="radio-1">Merriweather project is led by Sorkin Type</label>
+                       </div>
+                   </div>
+                   <div class="cards-wrapper__cards">
+                        <div class="card">
+                            <div class="card-image__wrapper">
+                                <div class="card-image__background pink">
+                                     <p>R</p>
+                                </div>
+                            </div>
+                            <div>
+                                <input id="radio-2" type="radio" name="radio" value="2">
+	                            <label for="radio-2">Roboto doesn't compromise, allowing letters</label>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image__wrapper">
+                                <div class="card-image__background blue">
+                                     <p>NS</p>
+                                </div>
+                            </div>
+                            <div>
+                                <input id="radio-3" type="radio" name="radio" value="3">
+	                            <label for="radio-3">Noto Sans cover over 30 scripts</label>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+            </div> 
+            <div id="tab-2" class="content-tab text">
+                <div class="text-wrapper">
+                    <p>Some dummy text is expected here</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
